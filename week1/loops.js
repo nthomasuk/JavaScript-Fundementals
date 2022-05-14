@@ -42,40 +42,49 @@
 
 // console.log(currentCard);
 
-// let favFilms = [
-//     "LOTR",
-//     "Ghostbusters",
-//     "Back To The Future",
-//     "Eternal Sunshine Of A Spotless Mind",
-//     "Reign On Me",
-// ];
+//ACTIVITY 1 -
 
-// favFilms.push("Artemis Fowl", "Gladiator");
+let favFilms = [
+    "LOTR",
+    "Ghostbusters",
+    "Back To The Future",
+    "Eternal Sunshine Of A Spotless Mind",
+    "Reign On Me",
+];
 
-// for (let i = 0; i<favFilms.length; i++){
-//     console.log(favFilms[i]);
-// }
+favFilms.push("Artemis Fowl", "Gladiator");
 
+for (let i = 0; i<favFilms.length; i++){
+    console.log(favFilms[i]);
+}
+  
+//END ACTIVITY 1
+
+//ACTIVITY 2 -
 
 // let Num = [];
 // for(let i = 0; i < 6; i++){
 // console.log(Math.floor((Math.random() * 50) + 1)); (Num);
 // }
 
+//END ACTIVITY 2
 
+//ACTIVITY 3 - 
 
 // for (let i = 9; i > 0; i--){
 //     console.log(i);
 // }
+
+//END ACTIVITY 3
+
+//ACTIVITY 4 -
 
 // let favFilms = [
 //         "LOTR",
 //         "Ghostbusters",
 //         "Back To The Future",
 //         "Eternal Sunshine Of A Spotless Mind",
-//         "Reign On Me",
-//     ];
-
+//];
 // for (let i = 0; i<favFilms.length; i++){
 //     console.log(favFilms[i])
 // }
@@ -86,6 +95,9 @@
 //     console.log("Boo! we want Ghostbusters!")
 // }
 
+//END ACTIVITY 4
+
+//ACTIVITY 5 -
 
 // for(let i = 0; i < 6; i++){
 //     genNum = Math.floor((Math.random() * 30) + 1); 
@@ -95,6 +107,10 @@
 //         console.log(`${genNum} is not divisible.`)
 //     }
 // }
+
+//END ACTIVITY 5
+
+//ACTIVITY 6 -
 
 // let bobsFollowers = [
 //     "Jo",
@@ -118,23 +134,57 @@
 //     }
 // }    
 
+//END ACTIVITY 6
+
+//ACTIVITY 7 -
 
 // while — loops through a block of code as long as the condition specified evaluates to true.
+
+// let i = 0;
+
+// while (i < 10) {
+//   text = i * 10;
+//   i++
+//   console.log(text)
+// }
+
 // do…while — loops through a block of code once; then the condition is evaluated. If the condition is true, the statement is repeated as long as the specified condition is true.
+
+// let i = 0;
+
+// do {
+//   text = i * 10;
+//   i++
+//   console.log(text);
+// } 
+// while (i < 10);
+
 // for — loops through a block of code until the counter reaches a specified number.
+
+// for (i = 0; i < 10; i++){
+//   console.log(i);
+// }
+
 // for…in — loops through the properties of an object.
+
+// const pet = {
+//   Name: "Russ",
+//   Animal: "Dog",
+//   Breed: "Labrador",
+//   Age: "2",
+//   favFood: "Chicken",
+// }
+
+// for (let i in pet){
+//   console.log(pet[i])
+// } 
+
 // for…of — loops over iterable objects such as arrays, strings, etc.
 
-let favouriteSongs = [
-    "Book of Mormon - Man up",
-    "Funny Girl - The Greatest Star",
-    "Annie - Little Girls",
-  ];
-  console.log(favouriteSongs);
-  
-  
-  favouriteSongs.push("Funny Girl - Don't rain on my parade", "Sister Act - Oh Happy Days");
-  
-  console.log(favouriteSongs);
-  
+// const pets = ["Dog", "Cat", "Rat", "Gerbil"];
 
+// for (let i of pets) {
+//   console.log(i);
+// }
+
+//END ACTIVITY 7

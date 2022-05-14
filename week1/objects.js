@@ -64,18 +64,21 @@
 
 // setAlarm(day.Monday)
 
-// const person = {
-//     name: "Nick",
-//     age: 38,
+//ACTIVITY 1 -
 
+const person = {
+   name: "Nick",
+   age: 38,
+   sayHi(){
+    return `Hello my name is ${this.name}`
+    }
+}
 
-// sayHi(){
-//     return `Hello my name is ${this.name}`
-// }
-// }
+console.log(person.sayHi());
 
-// console.log(person.sayHi());
+//END ACTIVITY 1 -
 
+//ACTIVITY 2 -
 
 // const pet = {
 //     name: "Russ",
@@ -91,47 +94,51 @@
 // }
 
 // console.log(pet.eat());
-
 // console.log(pet.drink());
 
+//END ACTIVITY 2
 
-let order = [];
-const coffeeShop = {
-    branch: "Manchester",
-    drinksPrices: {
-        "Cappuccino": 5,
-        "Latte": 4,
-        "Filter coffee": 3,
-        "Tea": 3,
-        "Hot chocolate": 4
-    },
-    foodPrices: {
-        "Pizza": 8,
-        "Chips": 1,
-        "Tapas": 6,
-        "Veggie Burger": 10
-    },
-    drinksOrdered(drink1,drink2){
-        let drinks = Object.keys(this.drinksPrices); 
-        let drinkValues = Object.values(this.drinksPrices); 
-        order.push(drinkValues[drinks.indexOf(drink1)]);
-        order.push(drinkValues[drinks.indexOf(drink2)]);
-        return `For drinks you've ordered ${drink1} and ${drink2}`;},
-    foodOrdered(food1,food2){
-        let foods = Object.keys(this.foodPrices); 
-        let foodValues = Object.values(this.foodPrices); 
-        order.push(foodValues[foods.indexOf(food1)]);
-        order.push(foodValues[foods.indexOf(food2)]);
-        return `For food you've ordered ${food1} and ${food2}`;
-    }
-}
-console.log(coffeeShop.drinksOrdered("Latte", "Tea"));
-console.log(coffeeShop.foodOrdered("Pizza", "Chips"));
+//ACTIVITY 3 -
 
-let total = 0;
-for(i=0;i<order.length;i++){
-    total+=order[i];
-}
+// let order = [];
+// const coffeeShop = {
+//     branch: "Manchester",
+//     drinksPrices: {
+//         "Cappuccino": 5,
+//         "Latte": 4,
+//         "Filter coffee": 3,
+//         "Tea": 3,
+//         "Hot chocolate": 4
+//     },
+//     mealPrices: {
+//         "Pizza": 8,
+//         "Chips": 1,
+//         "Tapas": 6,
+//         "Veggie Burger": 10
+//     },
+//     drinksOrdered(drink1,drink2){
+//         let drinks = Object.keys(this.drinksPrices); 
+//         let drinkValues = Object.values(this.drinksPrices); 
+//         order.push(drinkValues[drinks.indexOf(drink1)]);
+//         order.push(drinkValues[drinks.indexOf(drink2)]);
+//         return `For drinks you've ordered ${drink1} and ${drink2}`;},
+//         foodOrdered(meal1,meal2){
+//             let meals = Object.keys(this.mealPrices); 
+//             let meal = Object.values(this.mealPrices); 
+//             order.push(meal[meals.indexOf(meal1)]);
+//             order.push(meal[meals.indexOf(meal2)]);
+//             return `For food you've ordered ${meal1} and ${meal2}`;
+//         }
+//     }
+    
+// console.log(coffeeShop.drinksOrdered("Latte", "Tea"));
+// console.log(coffeeShop.foodOrdered("Pizza", "Chips"));
+    
+// let total =  0; 
+//     for (i = 0; i < order.length; i++){
+//         total += order[i];
+//     }
 
-console.log(`Your total comes to £${total}.`);
+// console.log(`Your total comes to £${total}.`);
 
+//END ACTIVITY 3

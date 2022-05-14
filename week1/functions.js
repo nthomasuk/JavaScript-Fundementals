@@ -42,17 +42,21 @@
 
 // console.log("The temperature is " + getFahrenheit(15) + "°F");
 
-// Activity 1
+// Activity 1 -
 
-// const factorial = (n) => {
-//     if ((n === 0) || (n === 1)){
-//         return 1;
-//     } else {
-//         return (n * factorial(n - 1));
-//     }
-// }
+const factorial = (n) => {
+    if ((n === 0) || (n === 1)){
+        return 1;
+    } else {
+        return (n * factorial(n - 1));
+    }
+}
 
-// console.log(factorial(33));
+console.log(factorial(33));
+
+//END ACTIVITY 1
+
+//ACTIVITY 2 -
 
 // let orderCount = 0;
 
@@ -65,4 +69,24 @@
 // takeOrder("pineapple", "ham");
 // takeOrder("pineapple", "ham");
 
+//END ACTIVITY 2
 
+//ACTIVITY 3 -
+
+// const pin = "7777";
+// let balance = 100;
+
+// const cashWithdrawl = (enteredPin, request) => {
+//     let remainingBalance = balance - request;
+//     if (pin === enteredPin && request <= balance){
+//         console.log(`Withdrawl of $${request} successful.\nRemaining balance: $${remainingBalance}`)
+//     } else if (pin !== enteredPin){
+//         console.log("Incorrect PIN");
+//     } else {
+//         console.log("Insufficient balance");
+//     }
+// }
+
+// cashWithdrawl("7776", 110);
+
+//END ACTIVITY 3

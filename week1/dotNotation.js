@@ -13,6 +13,7 @@
 // console.log("   |   |   ")
 // console.log("   |   |   ")
 
+//ACTIVITY 1 -
 
 let row = [
     "   |   |   \n   |   |   \n   |   |   ",
@@ -26,3 +27,5 @@ let row = [
             console.log('-----------')
         }
     }
+
+//END ACTIVITY 1

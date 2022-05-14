@@ -59,14 +59,20 @@
 //         console.log("Your car is not in the top ten companies in the world!")
 // }
 
-// let age = 21;
-// let country = "UK";
+//ACTIVITY 1 -
 
-// if (age == 21 && country == "UK"){
-//     console.log("Yes, I can serve you.");
-// } else {
-//     console.log("You aren't old enough");
-// }
+let age = 21;
+let country = "UK";
+
+if (age == 21 && country == "UK"){
+    console.log("Yes, I can serve you.");
+} else {
+    console.log("You aren't old enough");
+}
+
+//END ACTIVITY 1
+
+//ACTIVITY 2 -
 
 // let topping = "Pepperoni";
 
@@ -81,8 +87,12 @@
 //         console.log("I don't mind pepperoni.");
 //         break;
 //     default:
-//         console.log("This dos not belong on pizza!")
+//         console.log("This does not belong on pizza!")
 // }
+
+//END ACTIVITY 2
+
+//ACTIVITY 3 -
 
 // let password = "password1";
 
@@ -92,6 +102,10 @@
 //     console.log(`${password}`) 
 // }
 
+//END ACTIVITY 3
+
+//ACTIVITY 4 - 
+
 // let num = 15;
 
 // if (num % 3 == 0 || num % 5 == 0){
@@ -99,6 +113,10 @@
 // } else {
 //     console.log("This number is not divisible by three or five.")
 // }
+
+//END ACTIVITY 4
+
+//ACTIVITY 5 - 
 
 // let num = 3;
 
@@ -112,8 +130,11 @@
 //     console.log(num);
 // }
 
+//END ACTIVITY 5
 
-// let num = 123217;
+//ACTIVITY 6 -
+
+// let num = 123321;
 // let numString = num.toString(); 
 // let reverseNumString = numString.split('').reverse().join('');
 
@@ -123,16 +144,58 @@
 //     console.log(`No ${num} is not a palindrome`)
 // }
 
-let time = 7;
-let work = "Manchester";
-let home = "Warrington";
+// END ACTIVITY 6
 
-if (time == 8){
-  console.log(`I am commuting to work in ${work}`);
-} else if (time == 7){
-  console.log(`I am at home in ${home}`);
-} else if (time == 9){
-  console.log(`I am at work in ${work}`)
-} else {
-  console.log(`If it is between 9 and 5 I am at work in ${work}. Otherwise, I'm at home in ${home}`);
-}
+//ACTIVITY 7 - 
+
+// let time = 7;
+// let work = "Manchester";
+// let home = "Warrington";
+
+// if (time == 8){
+//   console.log(`I am commuting to work in ${work}`);
+// } else if (time == 7){
+//   console.log(`I am at home in ${home}`);
+// } else if (time == 9){
+//   console.log(`I am at work in ${work}`)
+// } else {
+//   console.log(`If it is between 9 and 5 I am at work in ${work}. Otherwise, I'm at home in ${home}`);
+// }
+
+//END OF ACTIVITY 7
+
+//ACTIVITY 8 - 
+
+// let myString = 'jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi'
+// let substr =  ['a','e','i','o','u'];
+// const lastVowel = myString.lastIndexOf(substr);
+
+// console.log(lastVowel);
+
+//END ACTIVITY 8
+
+//ACTIVITY 9 -
+
+// let word = "oxo";
+
+// if (word[0] == word[-1]){
+//   console.log(true);
+// } else{
+//   console.log(false);
+// }
+
+//END ACTIVITY 9
+
+//ACTIVITY 10 -
+
+// let num1 = 2;
+// let num2 = 3;
+// let num3 = num1 + num2;
+// if (num3 % 2 == 0){
+//   console.log(`${num3}`);
+// }else{
+//   let num4 = num1 * num2;
+//   console.log(`${num4}`)
+// }
+
+//END ACTIVITY 10
